@@ -24,6 +24,7 @@ import com.paulo.composestudyyoutube.ui.meditationComponents.HomeScreen
 import com.paulo.composestudyyoutube.ui.navigation.NavGraph
 import com.paulo.composestudyyoutube.ui.navigation.NavGraphs
 import com.paulo.composestudyyoutube.ui.navigation.Navigation
+import com.paulo.composestudyyoutube.ui.sizeWindow.ShowSizeWindow
 import com.ramcosta.composedestinations.DestinationsNavHost
 
 class MainActivity : ComponentActivity() {
@@ -34,7 +35,7 @@ class MainActivity : ComponentActivity() {
         setContent {
             Surface(color = Color.White) {
 
-                DestinationsNavHost(navGraph = NavGraphs.root)
+                ShowSizeWindow()
 
             }
         }
